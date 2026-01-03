@@ -31,7 +31,8 @@ DMO_Header_Editor/
 ├── controller.py # Core logic – validation, merging, saving
 ├── source.py # File parsing, header creation
 ├── validator.py # Validation of input and output data
-├── Mapping_Table.xlsx # Documentation of transformation rules and headers
+├── Mapping_Table.xlsx # Documentation of transformation rules and headers.
+│                      # Uses anonymized identifiers and serves as documentation of transformation logic only.
 ├── DMO_icon_flat.ico # Custom application icon
 ├── README.md # Project documentation
 └── LICENSE.txt # Project licence
@@ -41,7 +42,7 @@ DMO_Header_Editor/
 
 ### Requirements
 
-- Python **3.12.7** or higher
+- Python **3.10** or higher
 - Libraries:
   - `customtkinter >= 5.2.0`
   - *(optional)* `tkinter` – included by default in most Python distributions
@@ -94,6 +95,7 @@ Files that fail validation are skipped automatically and logged in the output wi
 The program overwrites output files using their original names (no _new suffix).
 Files with missing or invalid data are not saved.
 Designed for internal use in quality departments handling Wenzel / DMO measurement data.
+The mapping table uses anonymized identifiers and serves as documentation of transformation logic only.
 
 ---
 
@@ -111,3 +113,4 @@ Distributed under a **Custom License**.
 This software is intended for personal, internal, and non-commercial use only.  
 
 See the `LICENSE` file for full terms.
+
