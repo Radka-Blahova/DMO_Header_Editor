@@ -20,6 +20,7 @@ The tool automatically reformats and standardizes header sections according to a
 
 ### Project Structure
 
+```text
 DMO_Header_Editor/
 │
 ├── samples/                   # Sample DMO files (Anonymized)
@@ -34,6 +35,7 @@ DMO_Header_Editor/
 ├── DMO_icon_flat.ico # Custom application icon
 ├── README.md # Project documentation
 └── LICENSE.txt # Project licence
+```
 
 ---
 
@@ -107,4 +109,5 @@ This tool demonstrates my ability to bridge technical engineering requirements w
 
 Distributed under a **Custom License**.  
 This software is intended for personal, internal, and non-commercial use only.  
+
 See the `LICENSE` file for full terms.
